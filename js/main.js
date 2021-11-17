@@ -24,3 +24,9 @@ function calculateBudget(e) {
 	})
 	document.querySelector(".totalSum").textContent = incomeSum - costSum;
 }
+// Function to reload and clear the page
+function clear() {
+	location.reload();
+}
+let clearButton = document.querySelector("#clear");
+clearButton.addEventListener("click", clear);
