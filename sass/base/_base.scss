@@ -3,14 +3,13 @@ body {
   width: 100%;
   height: 100%;
   margin: auto;
-  padding: 100px 0px;
+  padding: 150px 0px;
 }
 .container {
   background: $primary;
   max-width: 600px;
-  height: auto;
+  min-height: 400px;
   margin: auto;
-  min-height: 100%;
   box-shadow: $dropshadow;
   overflow: hidden;
   border-radius: 10px;
