@@ -1,0 +1,46 @@
+.input-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 20px;
+  @include md {
+    flex-direction: column;
+    padding-top: 5px;
+  }
+  @include sm {
+    flex-direction: column;
+    padding-top: 5px;
+  }
+  @include xs {
+    flex-direction: column;
+    padding-top: 5px;
+  }
+}
+
+#operators {
+  cursor: pointer;
+  padding: 1px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  background: $grey;
+  &:focus {
+    outline: none;
+    border: 1px solid $accent;
+  }
+}
+
+input {
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  padding: 2px;
+  background: $grey;
+
+  &:focus {
+    outline: none;
+    border: 1px solid $accent;
+  }
+}

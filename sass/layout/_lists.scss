@@ -1,0 +1,45 @@
+.income-expense {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px 50px 0;
+  @include md {
+    padding: 50px 0 0;
+  }
+  @include sm {
+    padding: 50px 0 0;
+  }
+  @include xs {
+    padding: 5px 0 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+#income h2,
+#expense h2 {
+  @include gradient(bottom, $purplegradient);
+  color: $primary;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  @include xs {
+    padding: 10px 10px;
+  }
+}
+
+ul {
+  margin-top: 5%;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+
+  li:hover {
+    background: $accent;
+    color: $primary;
+    border-radius: 10px;
+  }
+}
