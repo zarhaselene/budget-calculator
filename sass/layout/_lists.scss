@@ -19,7 +19,7 @@
 
 #income h2,
 #expense h2 {
-  @include gradient(bottom, $purplegradient);
+  @include gradient(to bottom, $purplegradient);
   color: $primary;
   padding: 10px 30px;
   text-align: center;

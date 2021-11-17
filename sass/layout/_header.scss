@@ -1,5 +1,5 @@
 header {
-  @include gradient(bottom, $purplegradient);
+  @include gradient(to bottom, $purplegradient);
   height: 150px;
   width: 125%;
   margin: 0 0 20px -15%;
