@@ -1,0 +1,23 @@
+{
+  "name": "budget-calculator",
+  "version": "1.0.0",
+  "description": "Budget calculator | Assignment 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass sass/styles.scss main.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zarhaselene/budget-calculator.git"
+  },
+  "author": "Zarha Buske",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zarhaselene/budget-calculator/issues"
+  },
+  "homepage": "https://github.com/zarhaselene/budget-calculator#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
