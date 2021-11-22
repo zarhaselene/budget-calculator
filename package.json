@@ -4,7 +4,7 @@
   "description": "Budget calculator | Assignment 2",
   "main": "index.js",
   "scripts": {
-    "start": "node-sass sass/styles.scss main.css -w",
+    "start": "node-sass sass/styles.scss css/main.css -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
