@@ -28,11 +28,9 @@ header {
       display: flex;
       flex-direction: column;
       text-align: center;
+      font-weight: $semi-bold;
+      padding-left: 10px;
     }
   }
 }
 
-#totalSum {
-  font-weight: $semi-bold;
-  padding-left: 10px;
-}
