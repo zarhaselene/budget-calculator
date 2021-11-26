@@ -10,14 +10,18 @@
 	</script>
 </head>
 <body>
+	<!--Page content container -->
 	<div class="container">
+		<!--Calculator header-->
 		<header>
 			<div class="title">
 				<h1>Budget calculator</h1>
 				<h2>Your total is: <span class="totalSum"></span></h2>
 			</div>
 		</header>
+		<!-- Calculator main content-->
 		<main>
+			<!--Calculator input -->
 			<div class="input-containers">
 				<select id="operators">
 					<option value="+">
@@ -28,8 +32,9 @@
 					</option>
 				</select> <input id="description" placeholder="Add description" type="text" maxlength="15"> <input id="value" min="0" placeholder="Add amount" type="number"> 
 				<button class="add-btn">Add</button> 
-				<button class="clear-btn" onclick="clear()" id="clear">Clear</button>
-			</div><!--input-containers-->
+				<button class="clear-btn" id="clear">Clear</button>
+			</div>
+			<!--Calculator output -->
 			<div class="income-expense">
 				<div id="income">
 					<h2>Income</h2>
