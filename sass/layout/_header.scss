@@ -15,16 +15,18 @@ header {
   padding: 2rem;
   color: $primary;
 
-  /*Budget calculator*/
   h1 {
+    /*"Budget calculator"*/
     text-align: center;
     margin-bottom: 10px;
   }
   h2 {
+    //"Your total is:"
     display: flex;
     flex-direction: column;
     text-align: center;
     span {
+      //"totalSum"
       display: flex;
       flex-direction: column;
       text-align: center;
@@ -33,4 +35,3 @@ header {
     }
   }
 }
-
