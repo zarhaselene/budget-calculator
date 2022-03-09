@@ -8,7 +8,7 @@ The goal of the assignment is for you to individually show very good knowledge i
 [Live Demo](https://zs-budget-calculator.netlify.app/)
 
 ## Description:
-Create a web page based on this [template](https://i.ibb.co/XZvXgZn/Q1-newsletter-1.jpg)
+Create a web page based on this [template](https://i.ibb.co/6FgVGrL/mall.jpg)
 
 In order to pass the assignment, the site must meet these criteria:
 
